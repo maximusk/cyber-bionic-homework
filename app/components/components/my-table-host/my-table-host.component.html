@@ -1,0 +1,2 @@
+<input [(ngModel)]="displayEntriesCount">
+<my-table [rows]="displayEntriesCount" [products]="products" (entryRemoved)="onEntryRemoved($event)"></my-table>

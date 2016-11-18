@@ -1,0 +1,10 @@
+.remove-icon {
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    color: #828689 !important;
+}
+
+.remove-icon:hover {
+    color: #33373a !important;
+}

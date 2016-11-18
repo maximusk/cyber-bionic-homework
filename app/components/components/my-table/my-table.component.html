@@ -1,0 +1,10 @@
+<table class="table table-striped">
+    <tr *ngFor="let product of products | slice:0:displayEntriesCount">
+        <td>{{product.id}}</td>
+        <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
+        <td (click)="removeEntry(product)">
+            <a class="remove-icon">x</a>
+        </td>
+    </tr>
+</table>
